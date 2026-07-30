@@ -1,4 +1,4 @@
-# ACTIVITY 1
+# PRELIM ACTIVITY 1
 ## Name 
 Caspe, Princess Mae
 ## Course and Section
