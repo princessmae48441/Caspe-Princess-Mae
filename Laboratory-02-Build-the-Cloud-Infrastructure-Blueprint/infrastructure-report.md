@@ -1,1 +1,89 @@
-# Infrastructure Report
+# Cloud Infrastructure Assessment Report
+
+## 1. Server Information
+
+| Item | Details |
+|---|---|
+| **Operating System** | Ubuntu 24.04.4 LTS |
+| **Kernel Version** | 6.8.0-136-generic |
+| **CPU Model** | Intel Xeon E312xx (Sandy Bridge, IBRS update) |
+| **CPU Cores** | 1 |
+| **Total RAM** | 1.9 GiB |
+| **Disk Capacity** | 19 GB |
+| **Hostname** | ubuntu |
+| **IP Address** | 172.30.1.2 / 172.17.0.1 |
+
+## 2. Operating System
+
+The server is running **Ubuntu 24.04.4 LTS**. Ubuntu is the Linux operating system used to manage the server and run its applications and services.
+
+## 3. Kernel Version
+
+The server is using kernel version:
+
+`6.8.0-136-generic`
+
+The kernel is responsible for managing the system's hardware and allowing software to communicate with the hardware.
+
+## 4. CPU
+
+**CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
+
+**Number of CPU Cores:** 1
+
+The CPU provides the processing power needed to execute commands and run applications on the server.
+
+## 5. Memory
+
+**Total RAM:** 1.9 GiB
+
+The available memory is used by the operating system and running processes on the server.
+
+## 6. Disk Capacity
+
+The main disk has a total capacity of **19 GB**.
+
+| File System | Size | Used | Available | Mounted On |
+|---|---:|---:|---:|---|
+| `/dev/vda1` | 19 GB | 5.4 GB | 13 GB | `/` |
+
+The main disk uses the **ext4** file system.
+
+## 7. Mounted File Systems
+
+The investigation showed several mounted file systems:
+
+| Mount Point | File System |
+|---|---|
+| `/` | ext4 |
+| `/sys` | sysfs |
+| `/proc` | proc |
+| `/dev` | devtmpfs |
+| `/run` | tmpfs |
+| `/boot` | ext4 |
+| `/boot/efi` | vfat |
+
+These file systems are used by Linux for storing data and managing different parts of the operating system.
+
+## 8. Hostname
+
+**Hostname:** `ubuntu`
+
+The hostname identifies the Linux server within its environment.
+
+## 9. IP Address
+
+The terminal showed the following IP addresses:
+
+- `172.30.1.2`
+- `172.17.0.1`
+
+The main IP address used for this report is **172.30.1.2**.
+
+## 10. Investigation Summary
+
+The KillerCoda server is running Ubuntu 24.04.4 LTS with an Intel Xeon processor and 1 CPU core. It has 1.9 GiB of RAM and a 19 GB main disk. The server hostname is `ubuntu`, and the main IP address identified during the investigation is `172.30.1.2`.
+
+## Evidence
+
+Screenshots of the Linux terminal investigation are saved in the `screenshots` folder.
