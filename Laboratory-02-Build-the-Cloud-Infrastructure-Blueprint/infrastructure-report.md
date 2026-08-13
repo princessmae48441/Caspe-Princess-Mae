@@ -82,8 +82,6 @@ The main IP address used for this report is **172.30.1.2**.
 
 ## 10. Investigation Summary
 
-## Summary
-
 The investigation of the KillerCoda cloud server revealed the following information: It is running th Ubuntu 24.04.4 LTS operating system, and the kernel is 6.8.0-136-generic. This server is equipped with 1 CPU core and an Intel Xeon E312xx (Sandy Bridge, IBRS update) processor. It also has a total of 1.9 GiB of RAM that is used by the operating system and active processes.
 
 The main disk is **/dev/vda1** with a total capacity of 19 GB to be used for storage. Use of approximately 5.4 GB was found and remained unused 13 GB. Mounted at `/` is the main file system called **ext4**. For other mounted file systems, such as /sys, /proc, /dev, /run, /boot, and /boot/efi, there were observations.
