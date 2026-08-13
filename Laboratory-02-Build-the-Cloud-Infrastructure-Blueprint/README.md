@@ -1,4 +1,4 @@
-<h1 align="center">Laboratory 02</h1>
+<h1 align="center">Laboratory 2</h1>
 
 <h2 align="center">Build the Cloud Infrastructure Blueprint</h2>
 
