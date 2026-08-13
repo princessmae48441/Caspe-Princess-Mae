@@ -99,13 +99,5 @@ The terminal window for checking the CPU, RAM, Disk, mounted filesystems, hostna
 
 ---
 
-The components are associated with the one variable.All the components are related to one variable.
-
-The four infrastructure components are linked together and are interdependent to form the server environment.
-
-Compute – It is the power to run commands and applications.
-Storage: Where the operating system, applications, and files are stored.
-The server is able to communicate with other resources via **Networking**.
-Operating System is a program that controls the hardware and provides the environment for applications and services.
 
 These components can be observed functioning in the KillerCoda server. It is under Ubuntu control, using Intel Xeon CPU for processing, 19 GB disk for storage and assigned IP addresses for networking.
