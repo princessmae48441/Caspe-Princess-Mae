@@ -2,7 +2,7 @@
 
 ## 1. Which cloud infrastructure component do you think is the most important? Why?
 
-For me, the **compute resource** is one of the most important parts of cloud infrastructure because it is responsible for processing tasks and running applications. During the KillerCoda activity, I was able to see that the server had one CPU core and limited memory. This helped me understand that the performance of a cloud system depends on the computing resources available to it.
+For me, the compute resource is one of the most important parts of cloud infrastructure because it is responsible for processing tasks and running applications. During the KillerCoda activity, I was able to see that the server had one CPU core and limited memory. This helped me understand that the performance of a cloud system depends on the computing resources available to it.
 
 ## 2. How does Linux support cloud computing?
 
