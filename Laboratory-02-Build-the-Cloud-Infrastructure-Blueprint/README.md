@@ -107,9 +107,13 @@ During this laboratory, I learned how to:
 
 ## Challenges Encountered
 
-One challenge I encountered was understanding the different information displayed by the Linux commands. Some commands produced more details than were required, so I had to identify the specific values needed for the laboratory report.
+While doing this lab activity, I faced a couple of difficulties in researching the Linux server and compiling the necessary documentation. Initially, it was hard to know which Linux commands to use for each type of information, as the terminal often provided more information than was necessary. When I used lscpu, free -h, df -h, and findmnt to generate output, I had to carefully read through, surveying what information I wanted to incorporate in the report.
 
-Another challenge was organizing the collected information into separate documentation files. Creating the cloud infrastructure diagram also required arranging the required components clearly so that the relationship between the user, internet connection, network, compute resource, and storage resource could be easily understood.
+The other difficulty was to understand the distinction among compute, storage and networking resources of the server. The data in the terminal was mostly technical data, so had to interpret each result with respect to the actual use in a cloud. The compute resources were the CPU and RAM, and the disk and mounted file systems were considered storage resources, for instance.
+
+I also had some trouble making the results of the investigation fit into the necessary Markdown files. There were several documents, screenshots and a cloud architecture diagram, so I needed to ensure each document was in the correct folder, and the file names conformed to the desired format.
+
+The other challenge was creating the cloud infrastructure diagram that only had one user, one Internet connection, one network, one compute resource, and one storage resource. I had to sequence the parts on the board in such a way that the connections were simple and easy to trace, while avoiding unnecessary parts.
 
 ---
 
