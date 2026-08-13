@@ -1,10 +1,12 @@
 # Cloud Provider Comparison
 
-## Introduction
+## Overview
 
-AWS, Microsoft Azure, and Google Cloud Platform (GCP) are major public cloud providers. They offer similar infrastructure services, but each provider uses its own service names and has different features.
+Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are major public cloud providers. They provide similar cloud infrastructure services, but the services have different names and may offer different features.
 
-This comparison focuses on four basic infrastructure components: compute, storage, networking, and identity and access management.
+This comparison focuses on four major infrastructure components: compute, storage, networking, and identity and access management (IAM).
+
+---
 
 ## Infrastructure Service Comparison
 
@@ -15,47 +17,85 @@ This comparison focuses on four basic infrastructure components: compute, storag
 | **Networking** | Amazon VPC | Azure Virtual Network (VNet) | Google Cloud VPC |
 | **Identity and Access Management (IAM)** | AWS IAM | Microsoft Entra ID / Azure RBAC | Google Cloud IAM |
 
-## Service Comparison
+---
 
-### Compute
+## 1. Compute
 
-**Amazon EC2** provides virtual computing resources in AWS. It allows users to create and run virtual servers for applications and other workloads.
+### AWS – Amazon EC2
 
-**Azure Virtual Machines** provide virtual machines that run in the Azure cloud. They can be used to run applications and operating systems without maintaining physical servers.
+Amazon Elastic Compute Cloud (EC2) provides virtual computing resources in AWS. It allows users to create virtual servers and select computing resources based on the requirements of their applications and workloads.
 
-**Google Compute Engine** provides virtual machine instances that can be used to run workloads on Google Cloud.
+### Microsoft Azure – Azure Virtual Machines
 
-These three services serve a similar purpose because they provide the computing resources needed to run applications and workloads in the cloud.
+Azure Virtual Machines provide virtual machines that run in the Azure cloud environment. They can be used to run applications and operating systems without requiring an organization to maintain physical servers.
 
-### Storage
+### Google Cloud – Google Compute Engine
 
-**Amazon S3** is an object storage service used to store and retrieve data. Data is stored as objects inside S3 buckets.
+Google Compute Engine provides virtual machine instances for running applications and workloads in Google Cloud. Users can select different machine configurations depending on their computing requirements.
 
-**Azure Blob Storage** is Azure's object storage service. It can be used to store different types of unstructured data such as files, documents, images, and backups.
+### Comparison
 
-**Google Cloud Storage** provides object storage for data and files in Google Cloud.
+All three services provide virtual computing resources. They allow organizations to run applications and workloads using cloud-based virtual machines instead of depending entirely on physical servers.
 
-The three services provide cloud-based storage, although their service names, features, and management interfaces are different.
+---
 
-### Networking
+## 2. Storage
 
-**Amazon VPC** provides a logically isolated virtual network in AWS. It allows cloud resources such as EC2 instances to communicate using configured subnets, routes, and other networking resources.
+### AWS – Amazon S3
 
-**Azure Virtual Network (VNet)** provides a private network for Azure resources. It can be used to organize resources and control communication between them.
+Amazon Simple Storage Service (S3) is an object storage service used to store and retrieve data. Data is stored as objects inside containers called buckets.
 
-**Google Cloud VPC** provides networking for Google Cloud resources such as Compute Engine virtual machines and Google Kubernetes Engine workloads.
+### Microsoft Azure – Azure Blob Storage
 
-All three services provide virtual networking capabilities that allow cloud resources to communicate with each other.
+Azure Blob Storage is Microsoft's object storage service. It can be used to store large amounts of unstructured data such as documents, images, videos, and backups.
 
-### Identity and Access Management (IAM)
+### Google Cloud – Google Cloud Storage
 
-**AWS IAM** is used to manage access to AWS resources. It allows administrators to control which users, roles, and applications can access specific resources and what actions they can perform.
+Google Cloud Storage provides object storage for storing and accessing data in Google Cloud. It can be used by applications and other cloud resources that need to store files and objects.
 
-**Microsoft Entra ID** provides identity and authentication services in the Microsoft cloud environment, while **Azure RBAC** is used to assign permissions to Azure resources.
+### Comparison
 
-**Google Cloud IAM** controls who can access Google Cloud resources and what actions they are allowed to perform through roles and permissions.
+The three providers offer object storage services for storing data in the cloud. Although the names and management tools are different, their main purpose is to provide reliable storage that can be accessed by applications and users.
 
-The three providers all provide identity and access management features to help control access to cloud resources.
+---
+
+## 3. Networking
+
+### AWS – Amazon VPC
+
+Amazon Virtual Private Cloud (VPC) allows users to create a logically isolated virtual network in AWS. It can include networking components such as subnets, route tables, and gateways.
+
+### Microsoft Azure – Azure Virtual Network
+
+Azure Virtual Network (VNet) provides a private network for resources running in Azure. It allows resources to communicate with each other and with other networks.
+
+### Google Cloud – Google Cloud VPC
+
+Google Cloud VPC provides networking capabilities for resources running in Google Cloud. It allows cloud resources to communicate within a virtual network.
+
+### Comparison
+
+All three providers offer virtual networking services that allow cloud resources to communicate with each other. These services are important when designing a cloud infrastructure because applications and servers often need to communicate securely.
+
+---
+
+## 4. Identity and Access Management (IAM)
+
+### AWS – AWS IAM
+
+AWS Identity and Access Management (IAM) is used to control access to AWS resources. It allows administrators to manage users, roles, and permissions.
+
+### Microsoft Azure – Microsoft Entra ID / Azure RBAC
+
+Microsoft Entra ID provides identity and authentication services in the Microsoft cloud environment. Azure Role-Based Access Control (RBAC) can be used to manage permissions for Azure resources.
+
+### Google Cloud – Google Cloud IAM
+
+Google Cloud IAM controls access to Google Cloud resources through roles and permissions. It helps administrators determine who can access resources and what actions they are allowed to perform.
+
+### Comparison
+
+The three cloud providers have identity and access management services that help organizations control access to their cloud resources. Their main purpose is to make sure that users and applications receive the appropriate permissions.
 
 ---
 
@@ -63,36 +103,42 @@ The three providers all provide identity and access management features to help 
 
 ## 1. Which cloud provider offers the broadest range of services? Explain your answer.
 
-AWS is generally considered to have one of the broadest selections of cloud services. It provides services for computing, storage, networking, databases, security, analytics, development, and many other cloud workloads.
+AWS is generally considered to have one of the broadest selections of cloud services. It provides services for computing, storage, networking, databases, security, analytics, application development, and many other cloud workloads.
 
 ## 2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products? Why?
 
-I would recommend Microsoft Azure for an organization that primarily uses Microsoft products. Azure works closely with Microsoft's technologies and identity services, which can make it easier to connect existing Microsoft systems with cloud resources.
+I would recommend Microsoft Azure for an organization that primarily uses Microsoft products. Azure works closely with Microsoft's existing technologies and identity services, which can make it easier to connect existing Microsoft systems with cloud resources.
 
 ## 3. Which platform is widely recognized for Artificial Intelligence (AI), Machine Learning (ML), and Kubernetes services?
 
-Google Cloud is widely recognized for its work in Artificial Intelligence, Machine Learning, and Kubernetes. Google Kubernetes Engine (GKE) provides a managed Kubernetes environment for deploying, managing, and scaling containerized applications.
+Google Cloud is widely recognized for its strengths in Artificial Intelligence, Machine Learning, and Kubernetes services. Google Kubernetes Engine (GKE) provides a managed Kubernetes environment for deploying and managing containerized applications.
 
 ## 4. What similarities did you observe among the three cloud providers?
 
-The three cloud providers offer similar basic infrastructure services, including virtual machines, cloud storage, networking, and identity and access management. The main differences are their service names, specific features, management tools, and the way their services are integrated with their respective cloud platforms.
+The three cloud providers offer similar basic infrastructure services, including compute, storage, networking, and identity and access management. The main differences are their service names, features, management tools, and integration with their respective cloud platforms.
 
 ---
 
 # Official Documentation Sources
 
-- AWS EC2: https://docs.aws.amazon.com/ec2/
-- AWS S3: https://docs.aws.amazon.com/s3/
-- AWS VPC: https://docs.aws.amazon.com/vpc/
-- AWS IAM: https://docs.aws.amazon.com/iam/
+## AWS
 
-- Azure Virtual Machines: https://learn.microsoft.com/azure/virtual-machines/
-- Azure Blob Storage: https://learn.microsoft.com/azure/storage/blobs/
-- Azure Virtual Network: https://learn.microsoft.com/azure/virtual-network/
-- Microsoft Entra ID: https://learn.microsoft.com/entra/identity/
+- [Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2/)
+- [Amazon S3 Documentation](https://docs.aws.amazon.com/s3/)
+- [Amazon VPC Documentation](https://docs.aws.amazon.com/vpc/)
+- [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
 
-- Google Compute Engine: https://cloud.google.com/compute/docs
-- Google Cloud Storage: https://cloud.google.com/storage/docs
-- Google Cloud VPC: https://cloud.google.com/vpc/docs
-- Google Cloud IAM: https://cloud.google.com/iam/docs
-- Google Kubernetes Engine: https://cloud.google.com/kubernetes-engine/docs
+## Microsoft Azure
+
+- [Azure Virtual Machines Documentation](https://learn.microsoft.com/azure/virtual-machines/)
+- [Azure Blob Storage Documentation](https://learn.microsoft.com/azure/storage/blobs/)
+- [Azure Virtual Network Documentation](https://learn.microsoft.com/azure/virtual-network/)
+- [Microsoft Entra ID Documentation](https://learn.microsoft.com/entra/identity/)
+
+## Google Cloud Platform
+
+- [Compute Engine Documentation](https://cloud.google.com/compute/docs)
+- [Cloud Storage Documentation](https://cloud.google.com/storage/docs)
+- [Google Cloud VPC Documentation](https://cloud.google.com/vpc/docs)
+- [Google Cloud IAM Documentation](https://cloud.google.com/iam/docs)
+- [Google Kubernetes Engine Documentation](https://cloud.google.com/kubernetes-engine/docs)
