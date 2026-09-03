@@ -75,11 +75,7 @@ Enterprises commonly use AWS for:
 - E-commerce applications
 - Artificial intelligence and machine learning
 
-## 7. Screenshot
-
-![AWS Official Homepage](screenshots/aws-homepage.png)
-
-## 8. Official References
+## 7. Official References
 
 - [AWS Official Website](https://aws.amazon.com/)
 - [AWS Management Console](https://aws.amazon.com/console/)
