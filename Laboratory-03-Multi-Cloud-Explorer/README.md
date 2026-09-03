@@ -1,4 +1,4 @@
-# Checkpoint 7 – Linux Server Investigation
+ Linux Server Investigation
 
 ## 1. Operating System
 
