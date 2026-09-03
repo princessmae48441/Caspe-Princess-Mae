@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Cloud Platform Comparison Table
+## 1. Cloud Platform Comparison 
 
 | Category | AWS | Microsoft Azure | Google Cloud Platform |
 |---|---|---|---|
@@ -19,7 +19,7 @@
 
 ---
 
-## 2. Comparison Questions
+## Comparison Questions
 
 ### 1. Which cloud provider offers the broadest range of services?
 
@@ -39,4 +39,14 @@
   
 ---
 
-nds on an organization's specific requirements, existing technologies, budget, workload, and technical goals.
+## 2. Match the Cloud Services
+
+Using the equivalent services offered by AWS, Microsoft Azure, and Google Cloud Platform (GCP), the following table shows the corresponding services in each cloud platform.
+
+| **Service Category** | **AWS** | **Azure** | **GCP** |
+|---|---|---|---|
+| **Virtual Machine** | Amazon EC2 | Azure Virtual Machines | Google Compute Engine |
+| **Object Storage** | Amazon S3 | Azure Blob Storage | Google Cloud Storage |
+| **Identity Management** | AWS IAM | Microsoft Entra ID | Google Cloud IAM |
+| **SQL Database** | Amazon RDS | Azure SQL Database | Cloud SQL |
+| **Kubernetes** | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
