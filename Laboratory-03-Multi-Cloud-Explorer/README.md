@@ -132,4 +132,4 @@ The exact cloud instance/VM size should ultimately be selected based on the serv
 
 The following screenshot contains the terminal output from the KillerCoda Linux server investigation.
 
-![KillerCoda Terminal Output](screenshots/killercode-terminal.png)
+![KillerCoda Terminal Output](screenshots/killercoda-terminal.png)
